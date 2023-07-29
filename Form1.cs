@@ -16,5 +16,11 @@ namespace aplicativoMergeGit
         {
             InitializeComponent();
         }
+
+        private void btnEntrarFormA_Click(object sender, EventArgs e)
+        {
+            frmFormularioA ffa = new frmFormularioA();
+            ffa.Show();
+        }
     }
 }

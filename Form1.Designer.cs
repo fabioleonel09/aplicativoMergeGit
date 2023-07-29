@@ -54,6 +54,7 @@
             this.btnEntrarFormA.TabIndex = 1;
             this.btnEntrarFormA.Text = "Entrar Form A";
             this.btnEntrarFormA.UseVisualStyleBackColor = true;
+            this.btnEntrarFormA.Click += new System.EventHandler(this.btnEntrarFormA_Click);
             // 
             // btnEntrarFormB
             // 
