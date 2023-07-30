@@ -28,5 +28,10 @@ namespace aplicativoMergeGit
             frmFormularioB ffb = new frmFormularioB();
             ffb.Show();
         }
+
+        private void btnEntrarFormC_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Botão Form C ativado!", "Informação!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

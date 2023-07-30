@@ -32,7 +32,6 @@
             this.btnEntrarFormA = new System.Windows.Forms.Button();
             this.btnEntrarFormB = new System.Windows.Forms.Button();
             this.btnEntrarFormC = new System.Windows.Forms.Button();
-            this.btnEntrarFormD = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -47,8 +46,9 @@
             // 
             // btnEntrarFormA
             // 
+            this.btnEntrarFormA.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEntrarFormA.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrarFormA.Location = new System.Drawing.Point(27, 280);
+            this.btnEntrarFormA.Location = new System.Drawing.Point(99, 288);
             this.btnEntrarFormA.Name = "btnEntrarFormA";
             this.btnEntrarFormA.Size = new System.Drawing.Size(131, 67);
             this.btnEntrarFormA.TabIndex = 1;
@@ -58,8 +58,9 @@
             // 
             // btnEntrarFormB
             // 
+            this.btnEntrarFormB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEntrarFormB.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrarFormB.Location = new System.Drawing.Point(164, 280);
+            this.btnEntrarFormB.Location = new System.Drawing.Point(236, 288);
             this.btnEntrarFormB.Name = "btnEntrarFormB";
             this.btnEntrarFormB.Size = new System.Drawing.Size(131, 67);
             this.btnEntrarFormB.TabIndex = 2;
@@ -69,30 +70,21 @@
             // 
             // btnEntrarFormC
             // 
+            this.btnEntrarFormC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEntrarFormC.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrarFormC.Location = new System.Drawing.Point(301, 280);
+            this.btnEntrarFormC.Location = new System.Drawing.Point(373, 288);
             this.btnEntrarFormC.Name = "btnEntrarFormC";
             this.btnEntrarFormC.Size = new System.Drawing.Size(131, 67);
             this.btnEntrarFormC.TabIndex = 3;
             this.btnEntrarFormC.Text = "Entrar Form C";
             this.btnEntrarFormC.UseVisualStyleBackColor = true;
-            // 
-            // btnEntrarFormD
-            // 
-            this.btnEntrarFormD.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrarFormD.Location = new System.Drawing.Point(438, 280);
-            this.btnEntrarFormD.Name = "btnEntrarFormD";
-            this.btnEntrarFormD.Size = new System.Drawing.Size(131, 67);
-            this.btnEntrarFormD.TabIndex = 4;
-            this.btnEntrarFormD.Text = "Entrar Form D";
-            this.btnEntrarFormD.UseVisualStyleBackColor = true;
+            this.btnEntrarFormC.Click += new System.EventHandler(this.btnEntrarFormC_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(597, 408);
-            this.Controls.Add(this.btnEntrarFormD);
             this.Controls.Add(this.btnEntrarFormC);
             this.Controls.Add(this.btnEntrarFormB);
             this.Controls.Add(this.btnEntrarFormA);
@@ -110,7 +102,6 @@
         private System.Windows.Forms.Button btnEntrarFormA;
         private System.Windows.Forms.Button btnEntrarFormB;
         private System.Windows.Forms.Button btnEntrarFormC;
-        private System.Windows.Forms.Button btnEntrarFormD;
     }
 }
 
